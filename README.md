@@ -1,16 +1,67 @@
-# template
+# Flutter Template
 
-A new Flutter project.
+| Android | ✅  |
+| ------- | --- |
+| Windows | ✅  |
+| Linux   | ✅  |
+| MacOS   | ✅  |
+| iOS     | ❌  |
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## About the Template
+This flutter template is based on **Clean Code Architecture** and **MVVM pattern**. The template supports all the platforms listed above with the exception of iOS. This repo will be updated in the future according to the needs.
 
-A few resources to get you started if this is your first Flutter project:
+## Folder Structure
+    lib
+        config
+            constants
+            router
+            themes
+        core
+            bloc
+            common
+            failure
+            network
+            usecases
+            utils
+            app.dart
+        features
+            feature 1
+                data
+                    data_sources
+                        local_data_source
+                        remote_data_source
+                    models
+                    repository
+                domain
+                    entities
+                    repository
+                    usecase
+                presentaion
+                    state
+                    pages
+                    widgets
+                    viewmodel
+        injection
+        main.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Get Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Step 1
+Create a repo using the template and clone with branches
+
+#### Step 2
+Clone the newly created repo in VS-Code
+
+#### Step 3
+Replace All "template" in the repo with "your_app_name"
+
+#### Step 4
+```
+flutter pub get
+```
+
+#### Step 5
+```
+flutter run
+```
