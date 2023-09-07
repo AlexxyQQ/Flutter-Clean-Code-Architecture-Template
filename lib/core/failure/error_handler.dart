@@ -1,4 +1,3 @@
-///
 class AppErrorHandler {
   final String message;
   final dynamic data;

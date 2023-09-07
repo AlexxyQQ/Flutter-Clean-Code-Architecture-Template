@@ -2,13 +2,13 @@ name: "Build Release" # The name of the workflow
 on:
   pull_request: # Trigger the workflow on pull requests
     branches:
-      - cicd
+      - main
     paths: # Only trigger the workflow if the following files are changed
       - "CHANGELOGS.md"
 
   push: # Trigger the workflow on push to main, master, and develop branches
     branches:
-      - cicd
+      - main
     paths: # Only trigger the workflow if the following files are changed
       - "CHANGELOGS.md"
 
