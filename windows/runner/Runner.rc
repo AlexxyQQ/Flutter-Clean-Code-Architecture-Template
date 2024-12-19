@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.alexxy" "\0"
-            VALUE "FileDescription", "template" "\0"
+            VALUE "FileDescription", "example_repo" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "template" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.alexxy. All rights reserved." "\0"
-            VALUE "OriginalFilename", "template.exe" "\0"
-            VALUE "ProductName", "template" "\0"
+            VALUE "InternalName", "example_repo" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.alexxy. All rights reserved." "\0"
+            VALUE "OriginalFilename", "example_repo.exe" "\0"
+            VALUE "ProductName", "example_repo" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

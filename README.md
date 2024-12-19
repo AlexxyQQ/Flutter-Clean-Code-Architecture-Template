@@ -1,67 +1,16 @@
-# Flutter Template
+# example_repo
 
-| Android | ✅  |
-| ------- | --- |
-| Windows | ✅  |
-| Linux   | ✅  |
-| MacOS   | ✅  |
-| iOS     | ❌  |
+A new Flutter project.
 
+## Getting Started
 
-## About the Template
-This flutter template is based on **Clean Code Architecture** and **MVVM pattern**. The template supports all the platforms listed above with the exception of iOS. This repo will be updated in the future according to the needs.
+This project is a starting point for a Flutter application.
 
-## Folder Structure
-    lib
-        config
-            constants
-            router
-            themes
-        core
-            bloc
-            common
-            failure
-            network
-            usecases
-            utils
-            app.dart
-        features
-            feature 1
-                data
-                    data_sources
-                        local_data_source
-                        remote_data_source
-                    models
-                    repository
-                domain
-                    entities
-                    repository
-                    usecase
-                presentaion
-                    state
-                    pages
-                    widgets
-                    viewmodel
-        injection
-        main.dart
+A few resources to get you started if this is your first Flutter project:
 
-## Get Started
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-#### Step 1
-Create a repo using the template and clone with branches
-
-#### Step 2
-Clone the newly created repo in VS-Code
-
-#### Step 3
-Replace All "template" in the repo with "your_app_name"
-
-#### Step 4
-```
-flutter pub get
-```
-
-#### Step 5
-```
-flutter run
-```
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
